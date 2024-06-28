@@ -4,7 +4,7 @@ Instructions:
 ```
 git clone https://github.com/rows-of-houses/test_task_planner.git
 cd test_task_planner
-g++ warehouse_planner.cpp -I . -o warehouse_planner
+chmod +x build.sh && ./build.sh
 ./warehouse_planner
 ```
 ## Test input
